@@ -20,10 +20,11 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
+API_ID       = os.getenv("API_ID", "31961410")
+API_HASH     = os.getenv("API_HASH", "84e16fd45e9ab928d4172e3d8d6d7906")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "
+8182192872:AAFUyuOMkxdC6ija-Ft8hu79pp4KGShbKKY")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://jatinsalaria97_db_user:RewvYyM6MrjnLMQA@cluster0.dyhvhfq.mongodb.net/?appName=Cluster0")
 DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
@@ -41,7 +42,7 @@ YT_COOKIES   = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
 # ─── USAGE LIMITS ───────────────────────────────────────────────────────────────
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "5"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
@@ -76,3 +77,4 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
